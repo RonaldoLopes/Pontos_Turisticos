@@ -1,0 +1,17 @@
+no terminal windows
+sempre criar uma vm por projeto(pode ser de diferentes versões do phyton	   
+	1. python -m venv venv
+		1.1 entrar dentro da venv em scripts e executar o comando activate
+	2. Instalar django
+		2.1 pip install django
+	3. Criar projeto
+		3.1 django-admin startproject(cria um novo projeto) nome_projeto obs: colocar um . para não criar um sublevel
+	4. executar migrations, no vscode dentro do projeto localizar o manage.py e executar(python manage.py makemigrations)
+	 	4.1 mesma coisa com migrate (python manage.py migrate)
+	 	4.2 mesma comando superuser(python manage.py createsuperuser)
+	 	4.3 mesma coisa com runserver (python manage.py runserver)
+	5. criar apps no Django(python manage.py startapp nome_app)
+		OBS: criar models, registrar em settings e registrar em admin, após isso rodar makemigrations
+		
+
+	 
