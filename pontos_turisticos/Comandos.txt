@@ -12,6 +12,10 @@ sempre criar uma vm por projeto(pode ser de diferentes versões do phyton
 	 	4.3 mesma coisa com runserver (python manage.py runserver)
 	5. criar apps no Django(python manage.py startapp nome_app)
 		OBS: criar models, registrar em settings e registrar em admin, após isso rodar makemigrations
+
+DJANGO REST FRAMEWORK
+	1. na URL principal inserir a criação das routes(vide documentação)
+	2. criar uma viewset dentro da api raiz no core
 		
 
 	 
